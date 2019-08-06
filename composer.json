@@ -1,6 +1,7 @@
 {
     "name": "telemovilperu/gurtamlib",
     "description": "A Package to interact with Gurtam remote API write in php.",
+    "keywords": ["wialon","telemovilperu","remote-api","php"],
     "type": "library",
     "require": {
         "php": "^7.1",
@@ -15,8 +16,9 @@
     ],
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "Telemovilperu\\Gurtamlib\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

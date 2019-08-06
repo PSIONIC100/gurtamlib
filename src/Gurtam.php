@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Telemovilperu\Gurtamlib;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ClientException;
